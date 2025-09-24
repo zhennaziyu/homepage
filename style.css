@@ -31,6 +31,14 @@ h1 {
   font-family: "Georgia", "Times New Roman", serif;
   font-weight: bold;
 }
+h2 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: bold;
+  color: #3366cc;         
+  border-bottom: 1px solid #ccc;  
+  padding-bottom: 3px;    
+  margin-top: 30px;      
+}
 
 nav a {
   margin: 0 10px;
