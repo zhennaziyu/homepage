@@ -69,13 +69,6 @@ h3 {
   border-bottom: 1px solid #ddd; 
   padding-bottom: 4px;
 }
-.news-container {
-  border: 1px solid #ddd;
-  padding: 10px;
-  overflow: visible;   
-  height: auto;       
-}
-
 
 /* 链接 */
 a {
