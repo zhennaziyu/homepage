@@ -96,31 +96,18 @@ footer {
 
 .intro{
   display: grid;
-  grid-template-columns: minmax(520px, 1fr) 460px; 
+  grid-template-columns: minmax(520px, 1fr) 500px; /* 右边固定 500px，可以改成 520/540 */
   gap: 48px;
   align-items: start;
 }
 
-
 .profile-photo{
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center 35%;  
+  height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0,0,0,.08);
 }
 
-
-@media (max-width: 960px){
-  .intro{ grid-template-columns: 1fr; }
-  .right{ order: -1; }                 
-  .profile-photo{
-    width: min(92%, 340px);
-    aspect-ratio: auto;                
-    object-fit: contain;
-  }
-}
 
 html, body {
   background-color: #ffffff !important;
