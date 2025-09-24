@@ -61,3 +61,7 @@ footer {
   color: #666;
   margin-top: 60px;
 }
+html, body {
+  background-color: #ffffff !important;
+}
+
