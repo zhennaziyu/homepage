@@ -70,11 +70,12 @@ h3 {
   padding-bottom: 4px;
 }
 .news-container {
-  height: 120px;       
-  overflow-y: auto;    
   border: 1px solid #ddd;
   padding: 10px;
+  overflow: visible;   
+  height: auto;       
 }
+
 
 /* 链接 */
 a {
