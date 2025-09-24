@@ -59,14 +59,7 @@ header.intro {
   align-items: flex-start;
   margin-bottom: 20px;
 }
-.right img {
-  max-width: 300px;
-  border-radius: 4px;
-}
 
-.left {
-  flex: 2;
-}
 
 
 ul {
@@ -98,3 +91,14 @@ html, body {
   background-color: #ffffff !important;
 }
 
+header.intro{
+  display: grid !important;
+  grid-template-columns: 1fr 380px !important;  /* 想再小改 360/340 */
+  gap: 40px;
+  align-items: start;
+}
+header.intro .right{ width: 380px !important; }
+header.intro .right img.profile-photo{
+  width: 100% !important;
+  height: auto !important;
+}
