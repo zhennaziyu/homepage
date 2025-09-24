@@ -8,6 +8,43 @@ body {
   max-width: 900px;
 }
 
+/* 顶部导航栏 */
+.navbar {
+  display: flex;
+  justify-content: space-between;   /* 左右分布 */
+  align-items: center;
+  padding: 15px 50px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;   /* 滚动时固定在顶部 */
+  top: 0;
+  background: #fff;   /* 背景白色，避免透明 */
+  z-index: 1000;
+}
+
+/* 左边 Logo/名字 */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 右边导航链接 */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #0073e6;   /* 悬停变蓝 */
+}
 
 h1 {
   font-size: 28px;
