@@ -61,7 +61,28 @@ footer {
   color: #666;
   margin-top: 60px;
 }
+
+.intro {
+  display: flex;               
+  justify-content: space-between; 
+  align-items: flex-start;        
+}
+
+.left {
+  flex: 2;  
+}
+
+.right {
+  flex: 1;   
+  text-align: right; 
+}
+
+.right img {
+  border-radius: 10px;   
+  max-width: 200px;      
+  height: auto;
+}
+
 html, body {
   background-color: #ffffff !important;
 }
-
