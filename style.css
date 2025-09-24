@@ -64,11 +64,6 @@ header.intro {
   flex: 2;
 }
 
-.right img {
-  max-width: 200px;
-  border-radius: 4px;
-}
-
 
 ul {
   list-style-type: disc;
