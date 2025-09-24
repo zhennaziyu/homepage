@@ -59,6 +59,10 @@ header.intro {
   align-items: flex-start;
   margin-bottom: 20px;
 }
+.right img {
+  max-width: 400px;
+  border-radius: 4px;
+}
 
 .left {
   flex: 2;
@@ -93,20 +97,4 @@ footer {
 html, body {
   background-color: #ffffff !important;
 }
-/* —— 放在 style.css 末尾 —— */
-header.intro{
-  display: grid !important;
-  grid-template-columns: 1fr 520px !important; /* 右侧列宽，想更大就改 560/600 */
-  gap: 48px;
-  align-items: start;
-}
 
-header.intro .right{ width: 520px !important; }
-
-header.intro .right img.profile-photo{
-  width: 100% !important;   /* 填满右列 */
-  max-width: none !important;
-  height: auto !important;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0,0,0,.08);
-}
