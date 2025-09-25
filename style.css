@@ -93,11 +93,11 @@ html, body {
 
 header.intro{
   display: grid !important;
-  grid-template-columns: 1fr 380px !important;  /* 想再小改 360/340 */
+  grid-template-columns: 1fr 300px !important;  /* 想再小改 360/340 */
   gap: 40px;
   align-items: start;
 }
-header.intro .right{ width: 380px !important; }
+header.intro .right{ width: 300px !important; }
 header.intro .right img.profile-photo{
   width: 100% !important;
   height: auto !important;
